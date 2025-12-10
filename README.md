@@ -1,4 +1,4 @@
-# Suica Usage Enhancer (Chrome拡張)
+# Suica Usage View Utility (Chrome拡張)
 
 モバイルSuicaの利用履歴ページ（`https://www.mobilesuica.com/iq/ir/SuicaDisp.aspx`）を以下のように強化します。
 
