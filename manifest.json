@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Suica Usage View Utility",
+  "version": "0.1.0",
+  "description": "モバイルSuica利用履歴ページ（SuicaDisp.aspx）を日付範囲指定・色分け・フィルター付きで見やすくするコンテンツスクリプト拡張。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.mobilesuica.com/iq/ir/SuicaDisp.aspx*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
+

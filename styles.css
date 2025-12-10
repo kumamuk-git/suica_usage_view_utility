@@ -1,0 +1,163 @@
+.se-root {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  margin: 12px 0 18px;
+  padding: 12px;
+  border: 1px solid #c8d8c1;
+  background: #f6faf4;
+  border-radius: 8px;
+}
+
+.se-header h3 {
+  margin: 0 0 4px;
+  font-size: 16px;
+}
+
+.se-note {
+  margin: 0 0 12px;
+  color: #4b5563;
+  font-size: 12px;
+}
+
+.se-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.se-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.se-row label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.se-row input[type="text"],
+.se-row input[type="date"] {
+  padding: 4px 6px;
+  border: 1px solid #cdd3dd;
+  border-radius: 4px;
+  min-width: 180px;
+}
+
+.se-actions button {
+  padding: 6px 10px;
+  border: 1px solid #2f8a55;
+  background: #2f8a55;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.se-actions button:last-of-type {
+  border-color: #5f6b73;
+  background: #5f6b73;
+}
+
+.se-summary {
+  font-weight: bold;
+  color: #111827;
+}
+
+.se-types label {
+  background: #fff;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+}
+
+.se-legend {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2px;
+}
+
+.se-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  font-size: 12px;
+}
+
+.se-table-wrap {
+  margin-top: 12px;
+  max-height: 1000px;
+  overflow: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.se-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.se-table thead {
+  position: sticky;
+  top: 0;
+  background: #d9ead2;
+  z-index: 1;
+}
+
+.se-table th,
+.se-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #d6e3cf;
+  text-align: left;
+}
+
+.se-table td.se-num {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.se-weekday {
+  background: #ffffff;
+}
+
+.se-weekday.se-alt {
+  background: #f7f7f7;
+}
+
+.se-sat {
+  background: #e7f3ea;
+}
+
+.se-sun {
+  background: #f6edea;
+}
+
+.se-holiday {
+  background: #fde68a;
+}
+
+.se-plus {
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.se-minus {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .se-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
