@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.mobilesuica.com/iq/ir/SuicaDisp.aspx*"
+        "https://www.mobilesuica.com/iq/ir/SuicaDisp.aspx*",
+        "https://www.mobile.pasmo.jp/iq/ir/SuicaDisp.aspx*"
       ],
       "js": [
         "content.js"
